@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Happy New Year Avani ❤️</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .card {
+    background: rgba(255,255,255,0.12);
+    padding: 30px 22px;
+    border-radius: 22px;
+    max-width: 360px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 40px rgba(255,255,255,0.18);
+    animation: fadeIn 2s ease;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 0 20px rgba(255,182,193,0.4);
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 6px;
+    color: #ffd1dc;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background: #ff4f8b;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: #ff2f70;
+  }
+
+  .secret {
+    display: none;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #ffeef3;
+    animation: fadeIn 1.5s ease;
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(15px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- YOUR PHOTO -->
+  <img src="our-photo.jpg" alt="Us ❤️">
+
+  <h1>🎆 Happy New Year 🎆</h1>
+  <h2>Avani ❤️</h2>
+
+  <p>
+    A new year means new memories,  
+    but my favorite ones already exist —  
+    <b>with you.</b>
+  </p>
+
+  <button onclick="revealLove()">Reveal My Heart ❤️</button>
+
+  <!-- SECRET MESSAGE -->
+  <div class="secret" id="secretMessage">
+    Avani,<br><br>
+
+    If I could pause time, I’d choose the moments  
+    where it’s just you and me — no noise, no rush,  
+    just comfort, warmth, and love.<br><br>
+
+    You changed the way I see life, love, and myself.  
+    You became my calm on loud days,  
+    my smile without trying,  
+    and my home without walls.<br><br>
+
+    This new year, I don’t wish for perfection.  
+    I wish for **us** — growing, learning, laughing,  
+    holding each other through everything.<br><br>
+
+    No matter what the year brings,  
+    remember this always —  
+    <b>I choose you. Every day. Every year.</b><br><br>
+
+    Forever yours ❤️
+  </div>
+
+</div>
+
+<script>
+  function revealLove() {
+    document.getElementById("secretMessage").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
